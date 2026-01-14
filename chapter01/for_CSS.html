@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>크래프톤 정글 | HTML 기초</title>
+    <style>
+      .wrap {
+        width: 50%;
+      }
+
+      div {
+        color: blue;
+      }
+
+      #div-1 > h5 {
+        font-weight: bold;
+      }
+
+      .italic-text {
+        font-style: italic;
+      }
+
+      div > div > div {
+        background-color: red;
+      }
+
+      .small-div {
+        width: 200px;
+      }
+
+      .green-text {
+        color: green;
+      }
+
+      #my-h3 {
+        text-align: right;
+      }
+
+      /* practice */
+      /* 클래스 */
+      .practice-css {
+        background-color: blanchedalmond;
+        color: gray;
+      }
+
+      /* 자식 */
+      .practice-css > h3 {
+        color: black;
+
+        background-color: skyblue;
+      }
+
+      /* 자손 */
+      div li {
+        color: brown;
+        padding: 20px;
+        margin: 10px;
+        background-color: mediumaquamarine;
+      }
+
+      /* 아이디 */
+      #css {
+        text-align: right;
+      }
+
+      /* 빅사이즈라는 클래스를 갖는 div태그 안의 모든 클래스 */
+      div.big-size {
+        font-size: 50px;
+        background-color: white;
+        font-family: Arial;
+        color: magenta;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>1번 h1</h1>
+    <div class="wrap">
+      <div>
+        <h3>1번 h3</h3>
+        <div id="div-1">
+          <h3 id="my-h3" class="italic-text">2번 h3</h3>
+          <h5>1번 h5</h5>
+          <h5 class="italic-text green-text">2번 h5</h5>
+        </div>
+
+        <div class="small-div">
+          <h3 class="green-text">3번 h3</h3>
+          <h3>4번 h3</h3>
+          <h5>3번 h5</h5>
+        </div>
+
+        <h5>4번 h5</h5>
+      </div>
+    </div>
+    <h5>5번 h5</h5>
+
+    <hr />
+
+    <div id="chaper01" class="practice-css">
+      <h3 class="goal">학습 목표</h3>
+      <ul class="to-do-list">
+        <li>웹 기초 이해하기</li>
+        <li>HTML 실습하기</li>
+        <li>CSS 실습하기</li>
+        <li>부트스트랩 실습하기</li>
+      </ul>
+    </div>
+
+    <div class="practice-css">
+      <h3 class="goal">CSS</h3>
+      <h3 id="css">Cascading Style Sheet</h3>
+      <h5>폭포(cascading)가 위에서 아래로 물이 흐르는 것처럼</h5>
+      <h5>위에 있는 부모요소에 디자인을 적용하면</h5>
+      <h5>자동으로 안쪽 자식 요소까지 디자인 적용됨</h5>
+      <div class="big-size">
+        <p>YAHO</p>
+        <span>YEAH</span>
+        <div>BUT! However!</div>
+        <div>요건 직접 선택자에 걸려서 다른 디자인이 나온다..</div>
+      </div>
+    </div>
+  </body>
+</html>

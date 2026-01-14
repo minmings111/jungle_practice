@@ -1,0 +1,24 @@
+.login-main {
+  background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.login-contents {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#login-title {
+  font-size: 30px;
+  padding-top: 70px;
+  font-weight: bold;
+}
+
+.id-pw * {
+  margin-top: 10px;
+}

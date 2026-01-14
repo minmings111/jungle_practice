@@ -22,3 +22,12 @@
 .id-pw * {
   margin-top: 10px;
 }
+
+#container {
+  margin: 10px auto;
+  width: 300px;
+}
+
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}

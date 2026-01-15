@@ -1,0 +1,33 @@
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.hello-intro * {
+  font-size: small;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#hello-top {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#card-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#container {
+  margin: 10px auto;
+  max-width: 1000px;
+}
+
+.card-body {
+  font-size: small;
+}
+.card-title {
+  font-weight: bold;
+  font-size: medium;
+}
